@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.bg-diferent{
+    background-image: url("textura.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.bg-quienes{
+    background-image: url("backgroud.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
